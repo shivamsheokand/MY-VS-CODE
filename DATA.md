@@ -1,10 +1,13 @@
-JSON```
+# Editor Configuration
+
+This README provides the configuration settings for the code editor. Below is the JSON configuration that can be used to customize the editor's appearance and behavior.
+
+## Configuration JSON
+
+```json
 {
   "editor.fontFamily": "Dank Mono",
   "tabnine.experimentalAutoImports": true,
-  // "editor.fontFamily": "Fragment Mono",
-  // "editor.fontFamily": "Roboto",
-  // "editor.fontWeight": "bold",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -21,7 +24,6 @@ JSON```
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  // "terminal.integrated.enableMultiLinePasteWarning": false,
   "git.openRepositoryInParentFolders": "never",
   "workbench.iconTheme": "material-icon-theme",
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -37,5 +39,3 @@ JSON```
   "files.autoSave": "afterDelay",
   "editor.suggest.showStatusBar": true
 }
-
-```
